@@ -42,7 +42,7 @@ public class Main {
    public static boolean kuschelBedarf(int[] kuscheleinheiten) {
        if (kuscheleinheiten[0] + kuscheleinheiten[1] + kuscheleinheiten[2] > 60){
            return false;
-       } else if (kuscheleinheiten[0] < kuscheleinheiten[1] && kuscheleinheiten[1] < kuscheleinheiten[2]) {
+       } else if ((kuscheleinheiten[0] < kuscheleinheiten[1]) && (kuscheleinheiten[1] < kuscheleinheiten[2])) {
            return true;
        } else if (kuscheleinheiten[1] > 25) {
            return false;
