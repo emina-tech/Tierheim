@@ -40,7 +40,7 @@ public class Main {
    //int [] kuscheleinheit = new int[] {12, 22, 32};
 
    public static boolean kuschelBedarf(int[] kuscheleinheiten) {
-       if (kuscheleinheiten[0] + kuscheleinheiten[1] + kuscheleinheiten[2] > 60){
+       if ((kuscheleinheiten[0] + kuscheleinheiten[1] + kuscheleinheiten[2]) > 60){
            return false;
        } else if ((kuscheleinheiten[0] < kuscheleinheiten[1]) && (kuscheleinheiten[1] < kuscheleinheiten[2])) {
            return true;
