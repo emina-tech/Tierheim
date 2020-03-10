@@ -7,7 +7,7 @@ public class Main {
             return 2.0;
         } else if (gewicht < 1 && vertraegtSich) {
             return 4.0;
-        } else if (gewicht > 15 || letztesMal > 24) {
+        } else if (gewicht > 15 || letztesMal > 24 && vertraegtSich) {
             return 8.0;
         } else {
             return 5.0;
