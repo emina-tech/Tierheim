@@ -71,6 +71,8 @@ public class Main {
        System.out.print("Der Hund soll kuscheln werden: ");
        System.out.println(kuschelBedarf(new int[]{12, 22, 32}));
 
+       System.out.print("------------------------------------");
+
    }
 
 
