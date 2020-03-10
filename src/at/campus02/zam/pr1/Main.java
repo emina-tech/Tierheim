@@ -4,13 +4,13 @@ public class Main {
 
    /* public static double wieWeitSpazieren(double gewicht, int letztesMal, boolean vertraegtSich) {
         if (gewicht <= 1 && vertraegtSich) {
-            return 2;
+            return 2.0;
         } else if (gewicht < 1 && vertraegtSich) {
-            return 4;
+            return 4.0;
         } else if (gewicht > 15 || letztesMal > 24) {
-            return 8;
+            return 8.0;
         } else {
-            return 5;
+            return 5.0;
         }
     }
 
